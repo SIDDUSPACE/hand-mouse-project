@@ -1,0 +1,96 @@
+<mxfile host="65bd71144e">
+    <diagram id="sn0kGEV7FcQRK3TaHdmq" name="Page-1">
+        <mxGraphModel dx="616" dy="406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <UserObject label="" mermaidData="{&#xa;  &quot;data&quot;: &quot;graph LR\n\n    PY[\&quot;🐍 Python\&quot;]\n\n    CV[\&quot;👁️ OpenCV\&quot;]\n    MP[\&quot;🧠 MediaPipe\&quot;]\n    PA[\&quot;🖱️ PyAutoGUI\&quot;]\n\n    PY --&gt; CV\n    PY --&gt; MP\n    PY --&gt; PA\n\n    CV --&gt; CAM[\&quot;📷 Webcam\&quot;]\n    MP --&gt; HAND[\&quot;🖐️ Hand Tracking\&quot;]\n    PA --&gt; MOUSE[\&quot;💻 Mouse Control\&quot;]&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="L6odJThX3ybZcmPp2cGo-1">
+                    <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
+                        <mxGeometry as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="🐍 Python" mermaidId="n:PY" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="🐍 Python" id="L6odJThX3ybZcmPp2cGo-2">
+                    <mxCell parent="L6odJThX3ybZcmPp2cGo-1" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+                        <mxGeometry height="54" width="136" x="30" y="134" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="👁️ OpenCV" mermaidId="n:CV" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="👁️ OpenCV" id="L6odJThX3ybZcmPp2cGo-3">
+                    <mxCell parent="L6odJThX3ybZcmPp2cGo-1" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+                        <mxGeometry height="54" width="143" x="226" y="30" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="🧠 MediaPipe" mermaidId="n:MP" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="🧠 MediaPipe" id="L6odJThX3ybZcmPp2cGo-4">
+                    <mxCell parent="L6odJThX3ybZcmPp2cGo-1" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+                        <mxGeometry height="54" width="159" x="218" y="134" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="🖱️ PyAutoGUI" mermaidId="n:PA" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="🖱️ PyAutoGUI" id="L6odJThX3ybZcmPp2cGo-5">
+                    <mxCell parent="L6odJThX3ybZcmPp2cGo-1" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+                        <mxGeometry height="54" width="162" x="216" y="238" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="📷 Webcam" mermaidId="n:CAM" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="📷 Webcam" id="L6odJThX3ybZcmPp2cGo-6">
+                    <mxCell parent="L6odJThX3ybZcmPp2cGo-1" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+                        <mxGeometry height="54" width="147" x="449" y="30" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="🖐️ Hand Tracking" mermaidId="n:HAND" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="🖐️ Hand Tracking" id="L6odJThX3ybZcmPp2cGo-7">
+                    <mxCell parent="L6odJThX3ybZcmPp2cGo-1" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+                        <mxGeometry height="54" width="187" x="429" y="134" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="💻 Mouse Control" mermaidId="n:MOUSE" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="💻 Mouse Control" id="L6odJThX3ybZcmPp2cGo-8">
+                    <mxCell parent="L6odJThX3ybZcmPp2cGo-1" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+                        <mxGeometry height="54" width="188" x="428" y="238" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" mermaidId="e:PY-&gt;CV#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.68;exitY=0;entryX=0;entryY=0.5;" mermaidBaseValue="" id="L6odJThX3ybZcmPp2cGo-9">
+                    <mxCell edge="1" parent="L6odJThX3ybZcmPp2cGo-1" source="L6odJThX3ybZcmPp2cGo-2" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.68;exitY=0;entryX=0;entryY=0.5;" target="L6odJThX3ybZcmPp2cGo-3">
+                        <mxGeometry relative="1" as="geometry">
+                            <Array as="points">
+                                <mxPoint x="191" y="57"/>
+                            </Array>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" mermaidId="e:PY-&gt;MP#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;" mermaidBaseValue="" id="L6odJThX3ybZcmPp2cGo-10">
+                    <mxCell edge="1" parent="L6odJThX3ybZcmPp2cGo-1" source="L6odJThX3ybZcmPp2cGo-2" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="L6odJThX3ybZcmPp2cGo-4">
+                        <mxGeometry relative="1" as="geometry">
+                            <Array as="points"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" mermaidId="e:PY-&gt;PA#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.68;exitY=1;entryX=0;entryY=0.5;" mermaidBaseValue="" id="L6odJThX3ybZcmPp2cGo-11">
+                    <mxCell edge="1" parent="L6odJThX3ybZcmPp2cGo-1" source="L6odJThX3ybZcmPp2cGo-2" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=0.68;exitY=1;entryX=0;entryY=0.5;" target="L6odJThX3ybZcmPp2cGo-5">
+                        <mxGeometry relative="1" as="geometry">
+                            <Array as="points">
+                                <mxPoint x="191" y="265"/>
+                            </Array>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" mermaidId="e:CV-&gt;CAM#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;" mermaidBaseValue="" id="L6odJThX3ybZcmPp2cGo-12">
+                    <mxCell edge="1" parent="L6odJThX3ybZcmPp2cGo-1" source="L6odJThX3ybZcmPp2cGo-3" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="L6odJThX3ybZcmPp2cGo-6">
+                        <mxGeometry relative="1" as="geometry">
+                            <Array as="points"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" mermaidId="e:MP-&gt;HAND#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;" mermaidBaseValue="" id="L6odJThX3ybZcmPp2cGo-13">
+                    <mxCell edge="1" parent="L6odJThX3ybZcmPp2cGo-1" source="L6odJThX3ybZcmPp2cGo-4" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="L6odJThX3ybZcmPp2cGo-7">
+                        <mxGeometry relative="1" as="geometry">
+                            <Array as="points"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="" mermaidId="e:PA-&gt;MOUSE#0" mermaidBaseStyle="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;" mermaidBaseValue="" id="L6odJThX3ybZcmPp2cGo-14">
+                    <mxCell edge="1" parent="L6odJThX3ybZcmPp2cGo-1" source="L6odJThX3ybZcmPp2cGo-5" style="curved=1;startArrow=none;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="L6odJThX3ybZcmPp2cGo-8">
+                        <mxGeometry relative="1" as="geometry">
+                            <Array as="points"/>
+                        </mxGeometry>
+                    </mxCell>
+                </UserObject>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
